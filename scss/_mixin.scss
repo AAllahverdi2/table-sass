@@ -1,0 +1,47 @@
+@mixin table {
+    width: $table-width;
+    max-width: $table-max-width;
+    margin-bottom: $table-margin-bottom;
+    color: #212529;
+    border-collapse: collapse;
+
+    th,
+    td {
+        cursor: pointer;
+        padding: $table-cell-padding;
+        border-top: $table-border-width solid map-get($table-colors, "black");
+
+    }
+
+    thead th {
+        vertical-align: bottom;
+        border-bottom: $table-border-width solid map-get($table-colors, "muted");
+    }
+
+    tbody+tbody {
+        border-top: $table-border-width solid map-get($table-colors, "danger");
+    }
+
+    .table-sm {
+
+        th,
+        td {
+            padding: $table-sm-cell-padding;
+        }
+    }
+
+    .table-dark {
+        color: #fff;
+        background-color: #343a40;
+
+        th,
+        td,
+        thead th {
+            border-color: #454d55;
+        }
+
+        thead th {
+            background-color: #454d55;
+        }
+    }
+}

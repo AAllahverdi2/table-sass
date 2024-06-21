@@ -1,0 +1,23 @@
+$table-colors: (
+  "primary": #007bff,
+  "secondary": #6c757d,
+  "success": #28a745,
+  "danger": #dc3545,
+  "warning": #ffc107,
+  "info": #17a2b8,
+  "light": #f8f9fa,
+  "dark": #343a40,
+  "muted": #6c757d,
+  "white": #ffffff,
+  "black": #000000,
+  "gray-100": #f8f9fa,
+  "pink":pink,
+  "oranged":orange
+
+);
+
+@each $name, $color in $table-colors {
+    .table-#{$name} {
+      background-color: $color;
+    }
+  }

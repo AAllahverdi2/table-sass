@@ -1,0 +1,92 @@
+.table-primary {
+  background-color: #007bff;
+}
+
+.table-secondary {
+  background-color: #6c757d;
+}
+
+.table-success {
+  background-color: #28a745;
+}
+
+.table-danger {
+  background-color: #dc3545;
+}
+
+.table-warning {
+  background-color: #ffc107;
+}
+
+.table-info {
+  background-color: #17a2b8;
+}
+
+.table-light {
+  background-color: #f8f9fa;
+}
+
+.table-dark {
+  background-color: #343a40;
+}
+
+.table-muted {
+  background-color: #6c757d;
+}
+
+.table-white {
+  background-color: #ffffff;
+}
+
+.table-black {
+  background-color: #000000;
+}
+
+.table-gray-100 {
+  background-color: #f8f9fa;
+}
+
+.table-pink {
+  background-color: pink;
+}
+
+.table-oranged {
+  background-color: orange;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  cursor: pointer;
+  padding: 0.75rem;
+  border-top: 1px solid #000000;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #6c757d;
+}
+.table tbody + tbody {
+  border-top: 1px solid #dc3545;
+}
+.table .table-sm th,
+.table .table-sm td {
+  padding: 0.3rem;
+}
+.table .table-dark {
+  color: #fff;
+  background-color: #343a40;
+}
+.table .table-dark th,
+.table .table-dark td,
+.table .table-dark thead th {
+  border-color: #454d55;
+}
+.table .table-dark thead th {
+  background-color: #454d55;
+}
